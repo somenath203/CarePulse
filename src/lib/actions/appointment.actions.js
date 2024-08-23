@@ -74,8 +74,6 @@ export const getAppointmentList = async () => {
             if (appointment?.status === 'scheduled') {
 
                 accumulator.scheduledAppointmentsCounts += 1;
-                // we are able to access: "scheduledAppointmentsCounts" due to 'initialCountsOfAllCategories'
-                // we defined under 
 
             } else if (appointment?.status === 'cancelled') {
 
@@ -160,7 +158,6 @@ export const updateTheAppointment = async ({ idOfTheAppointmentToBeUpdated, auth
             ${type === 'schedule' ? `Your appointment has been scheduled on ${formatDateTime(appointmentDetails?.dateOfDoctorAppointment).dateTime} with Dr. ${appointmentDetails?.doctorForAppointment}` : `We regret to inform you that your appointment has been cancelled. Reason for cancellation: ${appointmentDetails?.cancellationReason}`}`;
 
 
-        // send sms notification to patient's email via nodemailer
         sendEmailNotification(authUserEmailAddress, emailSubject, emailBody);
 
         revalidatePath('/admin');
