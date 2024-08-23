@@ -1,5 +1,11 @@
 # CarePulse
 
+## Demo Video of the Project
+
+![Screenshot (694)](https://github.com/user-attachments/assets/b3978a22-a0c8-470c-a33d-c5ae354415a5)
+
+https://www.youtube.com/watch?v=cogkrXXNa8U
+
 ## Introduction
 
 CarePulse is a comprehensive healthcare management application designed to streamline patient and admin interactions. The application is divided into two main parts: user and admin functionalities. Users can register, submit their medical information, and book appointments, while admins can manage appointments and handle user requests.
