@@ -89,7 +89,7 @@ const Page = async () => {
         />
 
       </main> : <div className='min-h-screen flex justify-center'>
-        <p className='mt-28 text-center p-4 text-lg lg:text-xl tracking-widest uppercase'>Access denied: You must be enter admin access key in order to view this page.</p>
+        <p className='mt-28 text-center p-4 text-lg lg:text-xl tracking-widest uppercase'>Access denied: You must enter admin access key in order to view this page.</p>
       </div>}
 
     </div>
