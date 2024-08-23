@@ -39,7 +39,7 @@ const AppointmentModal = ({ type, patientId, userId, appointment }) => {
 
           <DialogDescription>
 
-            Please fill in the following details to {type} the 
+            Click the {type} appointment button to {type} the appointment 
             
           </DialogDescription>
 
