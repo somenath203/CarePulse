@@ -6,18 +6,19 @@ import { useDropzone } from 'react-dropzone';
 
 import { convertFileToUrl } from '@/app/lib/utils';
 
-
 export const FileUploader = ({ files, onChange }) => {
 
-
   const onDrop = useCallback((acceptedFiles) => {
-    
     onChange(acceptedFiles);
-  
-  }, []);
+  }, [onChange]);
 
-  
-  const { getRootProps, getInputProps } = useDropzone({ onDrop });
+  const { getRootProps, getInputProps } = useDropzone({
+    onDrop,
+    accept: {
+      'image/jpeg': ['.jpg', '.jpeg'],
+      'image/png': ['.png'],
+    }
+  });
 
   return (
     <div {...getRootProps()} className="file-upload">
