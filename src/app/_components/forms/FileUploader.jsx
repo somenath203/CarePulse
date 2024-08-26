@@ -45,7 +45,7 @@ export const FileUploader = ({ files, onChange }) => {
               or drag and drop
             </p>
             <p className="text-12-regular">
-              SVG, PNG, JPG or GIF (max. 800x400px)
+              JPG, JPEG, or PNG (max. 800x400px)
             </p>
           </div>
         </>
