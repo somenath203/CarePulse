@@ -82,9 +82,3 @@ CarePulse is a comprehensive healthcare management application designed to strea
 - **Zod:** Schema validation library for input validation.
 - **Gmail SMTP via Nodemailer:** Service for sending email notifications.
 - **Sentry.io:** Error tracking and monitoring tool.
-
-## Deployement URL
-
-The application is deployed on Vercel.
-
-Deployment Link: https://care-pulse-som.vercel.app/
